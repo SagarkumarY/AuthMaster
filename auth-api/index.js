@@ -5,7 +5,7 @@ import cookieParser from 'cookie-parser';
 import authRoutes from './routes/authRoutes.js'
 import dotenv from 'dotenv';
 
-dotenv.config();
+dotenv.config({ path: '../.env' })
 
 
 const app = express();

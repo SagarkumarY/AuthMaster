@@ -1,7 +1,10 @@
-import 'dotenv/config';
+// import 'dotenv/config';
+
 import pkg from 'pg';
 const { Pool } = pkg; // Destructure Pool from the default export
+import dotenv from 'dotenv';
 
+dotenv.config({ path: '../.env' })
 const pool = new Pool({
   user: process.env.PG_USER,
   host: process.env.PG_HOST,

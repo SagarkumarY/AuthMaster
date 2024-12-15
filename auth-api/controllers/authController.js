@@ -3,7 +3,7 @@ import jwt from 'jsonwebtoken'; // Library for creating JSON Web Tokens (JWTs)
 import Pool from '../config/config.js'; // Database connection pool configuration
 import dotenv from 'dotenv';
 
-dotenv.config();
+dotenv.config({ path: '../.env' })
 
 
 const signToken = (id) => {
