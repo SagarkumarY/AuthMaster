@@ -41,10 +41,11 @@ function Login() {
 
   return (
     <>
-      <div className="hero bg-base-200 min-h-screen">
+      {/* <div className="hero bg-base-200 min-h-screen"> */}
+      <div className=" min-h-screen flex items-center justify-center bg-gradient-to-br from-red-500 to-pink-500 p-4">
         {/* <div className="hero-content flex-col lg:flex-row-reverse"> */}
         <div className="hero-content flex-col w-full ">
-          <h1 className=" font-bold text-2xl text-center text-emerald-900">
+          <h1 className=" font-bold text-2xl text-center text-white">
             Login to access your account.
           </h1>
           <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
